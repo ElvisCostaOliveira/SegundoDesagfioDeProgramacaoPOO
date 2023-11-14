@@ -1,28 +1,29 @@
 package br.com.main;
 
 class Motor {
-	private int qtdPist;
-	private int potencia;
+    private int qtdPist;
+    private int potencia;
 
-	public Motor() {
-		this.qtdPist = 0;
-		this.potencia = 0;
-	}
+    public Motor(int qtdPist, int potencia) {
+        this.qtdPist = qtdPist;
+        this.potencia = potencia;
+    }
 
-	// Getters e setters
-	public int getQtdPist() {
-		return qtdPist;
-	}
+    // getters and setters
 
-	public void setQtdPist(int qtdPist) {
-		this.qtdPist = qtdPist;
-	}
+    public int getQtdPist() {
+        return qtdPist;
+    }
 
-	public int getPotencia() {
-		return potencia;
-	}
+    public void setQtdPist(int qtdPist) {
+        this.qtdPist = qtdPist;
+    }
 
-	public void setPotencia(int potencia) {
-		this.potencia = potencia;
-	}
+    public int getPotencia() {
+        return potencia;
+    }
+
+    public void setPotencia(int potencia) {
+        this.potencia = potencia;
+    }
 }
